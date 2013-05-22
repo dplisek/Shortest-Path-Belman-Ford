@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		B4863E99174CC478006943E8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4863E98174CC478006943E8 /* main.cpp */; };
 		B4863E9B174CC478006943E8 /* BelmanFord.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B4863E9A174CC478006943E8 /* BelmanFord.1 */; };
+		B4863EA7174CC4FA006943E8 /* CGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4863EA1174CC4FA006943E8 /* CGraph.cpp */; };
+		B4863EA8174CC4FA006943E8 /* t_edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4863EA3174CC4FA006943E8 /* t_edge.cpp */; };
+		B4863EA9174CC4FA006943E8 /* t_node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4863EA5174CC4FA006943E8 /* t_node.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,12 @@
 		B4863E95174CC478006943E8 /* BelmanFord */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BelmanFord; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4863E98174CC478006943E8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B4863E9A174CC478006943E8 /* BelmanFord.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BelmanFord.1; sourceTree = "<group>"; };
+		B4863EA1174CC4FA006943E8 /* CGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGraph.cpp; sourceTree = "<group>"; };
+		B4863EA2174CC4FA006943E8 /* CGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGraph.h; sourceTree = "<group>"; };
+		B4863EA3174CC4FA006943E8 /* t_edge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t_edge.cpp; sourceTree = "<group>"; };
+		B4863EA4174CC4FA006943E8 /* t_edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t_edge.h; sourceTree = "<group>"; };
+		B4863EA5174CC4FA006943E8 /* t_node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t_node.cpp; sourceTree = "<group>"; };
+		B4863EA6174CC4FA006943E8 /* t_node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t_node.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,12 @@
 		B4863E97174CC478006943E8 /* BelmanFord */ = {
 			isa = PBXGroup;
 			children = (
+				B4863EA1174CC4FA006943E8 /* CGraph.cpp */,
+				B4863EA2174CC4FA006943E8 /* CGraph.h */,
+				B4863EA3174CC4FA006943E8 /* t_edge.cpp */,
+				B4863EA4174CC4FA006943E8 /* t_edge.h */,
+				B4863EA5174CC4FA006943E8 /* t_node.cpp */,
+				B4863EA6174CC4FA006943E8 /* t_node.h */,
 				B4863E98174CC478006943E8 /* main.cpp */,
 				B4863E9A174CC478006943E8 /* BelmanFord.1 */,
 			);
@@ -118,6 +133,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4863E99174CC478006943E8 /* main.cpp in Sources */,
+				B4863EA7174CC4FA006943E8 /* CGraph.cpp in Sources */,
+				B4863EA8174CC4FA006943E8 /* t_edge.cpp in Sources */,
+				B4863EA9174CC4FA006943E8 /* t_node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
